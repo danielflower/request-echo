@@ -23,7 +23,7 @@ public class App {
 
                 PrintWriter writer = resp.writer();
                 writer.println("Request URI: " + req.uri());
-                writer.println("Server URI: " + req.serverURI());
+                writer.println(" Server URI: " + req.serverURI());
                 writer.println("Server info: " + req.server());
                 writer.println("Headers:");
                 for (Map.Entry<String, String> entry : req.headers().entries()) {
