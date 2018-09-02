@@ -28,14 +28,9 @@
 
 
         <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-server</artifactId>
-            <version>${jetty.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-util</artifactId>
-            <version>${jetty.version}</version>
+            <groupId>io.muserver</groupId>
+            <artifactId>mu-server</artifactId>
+            <version>0.14.2</version>
         </dependency>
 
     </dependencies>
