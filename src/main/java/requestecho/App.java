@@ -24,6 +24,8 @@ public class App {
                 PrintWriter writer = resp.writer();
                 writer.println("Request URI: " + req.uri());
                 writer.println(" Server URI: " + req.serverURI());
+                writer.println("Request Path: " + req.uri().getPath());
+                writer.println(" Server Path: " + req.serverURI().getPath());
                 writer.println("Request Raw Path: " + req.uri().getRawPath());
                 writer.println(" Server Raw Path: " + req.serverURI().getRawPath());
                 writer.println("Server info: " + req.server());
